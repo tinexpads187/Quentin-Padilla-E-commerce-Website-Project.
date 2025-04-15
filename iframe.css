@@ -1,0 +1,83 @@
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: orangered;
+}
+a:active{
+    color: gray;
+}
+body{
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-bar h2 {
+    font-family: "Press Start 2P",'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 22px;
+    color: burlywood;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-up, .log-in {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.log-in {
+    background-color: #a36f4d;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.cart-icon {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.mdags{
+    border-style: solid;
+    border: 3px;
+    border-radius: 50%;
+}
